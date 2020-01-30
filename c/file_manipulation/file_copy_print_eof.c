@@ -1,7 +1,7 @@
 // C practice - file copying
 
 #include <stdio.h>
-/*copy input to output; 2nd version*/
+/*copy input to output; EoF version*/
 
 main(){
     int c;
