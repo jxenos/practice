@@ -4,9 +4,10 @@
 main(){
     double nc;
     int n;
-  while ((c = getchar()) != EOF)
-    for (nc = 0; (c = getchar()) != EOF; nc++)
-        if (isWhiteSpace(c))
+    char c;
+    while ((c = getchar()) != EOF)
+        for (nc = 0; (c = getchar()) != EOF; nc++)
+            if (isWhiteSpace(c))
             n++;
     
     printf("%d\n", n);
