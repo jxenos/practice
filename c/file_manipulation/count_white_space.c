@@ -14,8 +14,6 @@ main(){
 }
 
 int isWhiteSpace(char c){
-    int wsBool = 0;
-    wsBool = c == '\n' | c == '\t' | c == ' ';
-    return wsBool
+    return c == '\n' | c == '\t' | c == ' ';
 }
 
